@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Keyboard</title>
+
+    <!-- import the stylesheet and js script -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="textbox" class="textbox" contenteditable="true" data-placeholder="Type something on the virtual keyboard..."></div>
+
+
+        <div id="keyboard" class="keyboard">
+            <div class="row">
+                <div class="keys">`</div>
+                <div class="keys">1</div>
+                <div class="keys">2</div>
+                <div class="keys">3</div>
+                <div class="keys">4</div>
+                <div class="keys">5</div>
+                <div class="keys">6</div>
+                <div class="keys">7</div>
+                <div class="keys">8</div>
+                <div class="keys">9</div>
+                <div class="keys">0</div>
+                <div class="keys">-</div>
+                <div class="keys">=</div>
+                <div class="special delete">delete</div>
+            </div>
+
+            <div class="row">
+                <div class="special tab">tab</div>
+                <div class="keys char">q</div>
+                <div class="keys char">w</div>
+                <div class="keys char">e</div>
+                <div class="keys char">r</div>
+                <div class="keys char">t</div>
+                <div class="keys char">y</div>
+                <div class="keys char">u</div>
+                <div class="keys char">i</div>
+                <div class="keys char">o</div>
+                <div class="keys char">p</div>
+                <div class="keys">[</div>
+                <div class="keys">]</div>
+                <div class="keys">\</div>
+            </div>
+
+
+            <div class="row">
+                <div id="capsLock" class="special caps-lock">caps lock</div>
+                <div class="keys char">a</div>
+                <div class="keys char">s</div>
+                <div class="keys char">d</div>
+                <div class="keys char">f</div>
+                <div class="keys char">g</div>
+                <div class="keys char">h</div>
+                <div class="keys char">j</div>
+                <div class="keys char">k</div>
+                <div class="keys char">l</div>
+                <div class="keys">;</div>
+                <div class="keys">'</div>
+                <div id="return" class="special return">return</div>
+            </div>
+
+            <div class="row">
+                <div id="shift" class="special shift">shift</div>
+                <div class="keys char">z</div>
+                <div class="keys char">x</div>
+                <div class="keys char">c</div>
+                <div class="keys char">v</div>
+                <div class="keys char">b</div>
+                <div class="keys char">n</div>
+                <div class="keys char">m</div>
+                <div class="keys">,</div>
+                <div class="keys">.</div>
+                <div class="keys">/</div>
+                <div id="shift" class="special shift">shift</div>
+            </div>
+
+            <div class="row">
+                <div id="ctrl" class="special ctrl">ctrl</div>
+                <div id="alt" class="special alt">alt</div>
+                <div id="space" class="special space">space</div>
+                <div id="alt" class="special alt">alt</div>
+                <div id="ctrl" class="special ctrl">ctrl</div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

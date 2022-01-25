@@ -1,0 +1,1 @@
+A virtual keyboard also known as on screen keyboard or touch keyboard, built by using HTML, CSS and JavaScript.
